@@ -79,7 +79,7 @@
                         <asp:TextBox ID="TextBox3" CssClass="omar123456" runat="server" Height="192px" Width="461px"></asp:TextBox>
                     </td>
                     <td style="text-align: justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Image ID="Image1" runat="server" Height="241px" Width="300px" ImageUrl="~/image/download (1).png" />
+                        <asp:Image ID="imgUserPic" runat="server" Height="241px" Width="300px" ImageUrl="~/image/download (1).png" />
                     </td>
                 </tr>
                 <tr>
@@ -87,7 +87,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" style="vertical-align: top; text-align: center;">
-                        <asp:Button ID="Button1" runat="server" BackColor="Red" ForeColor="White" Height="39px" Text="Save" Width="129px" Font-Bold="True" />
+                        <asp:Button ID="Button1" runat="server" BackColor="Red" ForeColor="White" Height="39px" Text="Save" Width="129px" Font-Bold="True" OnClick="Button1_Click" />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
                 </tr>
         </table>
